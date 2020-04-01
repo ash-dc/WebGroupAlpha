@@ -1,0 +1,77 @@
+body {
+    margin:0;
+    background-color: lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:midnightblue;
+
+}
+
+
+.CollegeLogo {
+        margin:10px;
+        
+}
+.PageTop a {text-decoration: none;}
+.PageTopTitle{
+    font-size: 20PX;
+    padding-bottom: 20px;
+    margin-left: 200px;
+
+}
+
+.NB {
+    overflow: hidden;
+    background-color: white;
+    font-family:inherit;
+    margin-top: 10px;
+}
+
+.List {
+    float: left;
+    overflow: hidden;
+}
+
+.List .Drop {
+    color: rgb(118, 118, 219);
+    padding: 14px 16px;
+	font-size: 18px;
+    margin: 0;
+    display: inline-block;
+}
+  
+  .List:hover .Drop {
+    background-color: #5B7F95;
+      overflow: visible;
+    color: white;
+  }
+  
+  .Dropdown {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .Dropdown a {
+      float: none;
+      color: #074F71;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      font-size: 16px;
+  }
+  
+  .Dropdown a:hover {
+      background-color: #ddd;
+      overflow: visible;
+  }
+  
+  .List:hover .Dropdown {
+      display: block;
+      z-index: 100;
+      overflow: visible;
+  }
+   
