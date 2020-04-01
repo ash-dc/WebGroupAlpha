@@ -74,4 +74,62 @@ body {
       z-index: 100;
       overflow: visible;
   }
-   
+  
+  /* Box Code */
+.Box1 { 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.BoxContent {
+    padding-right:25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+/* Style for headings in general */
+
+h1, h2, h3, h4 {
+	padding: 10px 12px;
+	
+}
+
+h1{
+	color: #074F71;
+}
+
+h2 {
+	color: #bcbcbc;
+}
+
+ul {
+	color: white;
+}
+
+a, a:visited{
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #074F71;
+  text-decoration: none;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 18px 20px;
+  line-height: 1.6;
+	color: white;
+}
+
+.Pic {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
