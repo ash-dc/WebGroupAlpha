@@ -120,6 +120,19 @@ ul {
 	color: white;
 }
 
+.BoxContent ul{
+  font-family: Arial, Helvetica, sans-serif;
+	padding: 18px 20px;
+  line-height: 1.6;
+	color: black;
+}
+.Centered ul{
+  font-family: Arial, Helvetica, sans-serif;
+	padding: 18px 20px;
+  line-height: 1.6;
+	color: black;
+}
+
 a, a:visited{
   font-family: Arial, Helvetica, sans-serif; 
   color: rgb(165, 165, 165);
