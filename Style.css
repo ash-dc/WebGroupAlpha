@@ -11,6 +11,7 @@ body {
         margin:10px;
         
 }
+/* Navigation Bar CSS */
 .PageTop a {
   text-decoration: none;
   font-weight: bold; 
@@ -108,7 +109,7 @@ body {
     padding-top: 25px;
 }
 
-/* Style for headings in general */
+/* Style for Headers in general */
 
 h1, h2, h3, h4 {
 	padding: 10px 12px;
