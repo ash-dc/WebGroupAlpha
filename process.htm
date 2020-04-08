@@ -1,51 +1,41 @@
 <html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home </title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
-    </head>
-    <body>
-    
-    <!--Navigation Bar-->
-    <div class="PageTop"> 
-        <a href="https://flemingcollege.ca/">
-            <img src="FlemingLogo.jpg" class="CollegeLogo" alt="Fleming College Logo">
-        </a>
-        <a href="Halton.html">
-            <span class ="PageTopTitle">Halton Conservation Flood Risk Assessment</span>
-        </a>
-        <div class="NB">
-            <div class="List">
-                <a href="index.htm" class="Drop">Background
-                
-                </a>
-                <div class="Dropdown">
-                    <a href="Page1.htm#Box1">Page1Box1</a>
-                    <a href="Page1.htm#Box2">Page1Box2</a>
-                    <a href="Page1.htm#Box3">Page1Box3</a>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Home </title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        </head>
+        <body>
+        
+        <!--Navigation Bar-->
+        <div class="PageTop"> 
+            <a href="https://flemingcollege.ca/">
+                <img src="FlemingLogo.jpg" class="CollegeLogo" alt="Fleming College Logo">
+            </a>
+            
+                <span class ="PageTopTitle">Conservation Halton Flood Risk Assessment</span>
+            
+            <div class="NB">
+                <div class="List">
+                    <a href="index.htm" class="Drop">Background
+                    
+                    </a>
+                  </div> 
+                <div class="List">
+                    <a href="process.htm" class="Drop">Process
+                    </a>
+                </div> 
+                  <div class="List">
+                    <a href="final.htm" class="Drop">Final Solutions
+                    </a>
+                    <div class="Dropdown">
+                      <a href="https://experience.arcgis.com/experience/3715296e10a24119a7548c34923ebaae">Public Web Application</a>
+                      <a href="https://fleming.maps.arcgis.com/apps/opsdashboard/index.html#/be7a83ab7f64412296de28aa8a482ab6">Internal Dashboard</a>
+                      <a href="JavaAPI1.html">JavaScript API demo</a>
+                    </div>
                 </div>
-              </div> 
-            <div class="List">
-                <a href="process.htm" class="Drop">Process
-                </a>
-                <div class="Dropdown">
-                  <a href="Process#Box1">Page2Box1</a>
-                  <a href="Page2.htm#Box2">Page2Box2</a>
-                  <a href="Page2.htm#Box3">Page2Box3</a>
-                </div>
-            </div> 
-              <div class="List">
-                <a href="final.htm" class="Drop">Final Solutions
-                </a>
-                <div class="Dropdown">
-                  <a href="Page3.htm#Box1">Box1</a>
-                  <a href="Page3.htm#Box2">Box2</a>
-                  <a href="Page3.htm#Box3">Box3</a>
-                </div>
-            </div>
-              
-        </div>	 
-    </div>
+                  
+            </div>	 
+        </div>
     <!--NavigationBarEnd-->
     <!-- Box Section -->
     <div class="Centered">
@@ -152,7 +142,14 @@
                 <div class="BoxContent">
                             <h1>Option 3</h1>
                             <p>
-                                
+                                    This option underwent preprocessing in ArcGIS online to determine the Building Footprint Area within 
+                                    each watershed of the Conservation Halton jurisdiction. The Summarize Within tool was used to calculate
+                                     this statistic and was displayed in the Dashboard using the indicator widget. The indicator widget is 
+                                     based on a transparent Building Footprint Summary layer. Arrows within the indicator tool can be clicked
+                                      to cycle through the various watersheds. The indicator also filters as the map pans and zooms so that 
+                                      only visible watersheds can be displayed within the indicator. The indicator can be filtered further 
+                                      by using the select tool in the top left corner of the WebMap. 
+                                    This will allow the user to select a watershed and retrieve its name and building area summary.  
                             </p>
                         </div>
                     <img class="Pic" src="Dashboard3.jpg" alt="Operations Dashboard screenshot">

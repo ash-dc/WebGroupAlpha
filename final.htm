@@ -11,36 +11,26 @@
         <a href="https://flemingcollege.ca/">
             <img src="FlemingLogo.jpg" class="CollegeLogo" alt="Fleming College Logo">
         </a>
-        <a href="Halton.html">
-            <span class ="PageTopTitle">Halton Conservation Flood Risk Assessment</span>
-        </a>
+        
+            <span class ="PageTopTitle">Conservation Halton Flood Risk Assessment</span>
+        
         <div class="NB">
             <div class="List">
                 <a href="index.htm" class="Drop">Background
                 
                 </a>
-                <div class="Dropdown">
-                    <a href="Page1.htm#Box1">Page1Box1</a>
-                    <a href="Page1.htm#Box2">Page1Box2</a>
-                    <a href="Page1.htm#Box3">Page1Box3</a>
-                </div>
               </div> 
             <div class="List">
                 <a href="process.htm" class="Drop">Process
                 </a>
-                <div class="Dropdown">
-                  <a href="Process#Box1">Page2Box1</a>
-                  <a href="Page2.htm#Box2">Page2Box2</a>
-                  <a href="Page2.htm#Box3">Page2Box3</a>
-                </div>
             </div> 
               <div class="List">
                 <a href="final.htm" class="Drop">Final Solutions
                 </a>
                 <div class="Dropdown">
-                  <a href="Page3.htm#Box1">Box1</a>
-                  <a href="Page3.htm#Box2">Box2</a>
-                  <a href="Page3.htm#Box3">Box3</a>
+                  <a href="https://experience.arcgis.com/experience/3715296e10a24119a7548c34923ebaae">Public Web Application</a>
+                  <a href="https://fleming.maps.arcgis.com/apps/opsdashboard/index.html#/be7a83ab7f64412296de28aa8a482ab6">Internal Dashboard</a>
+                  <a href="JavaAPI1.html">JavaScript API demo</a>
                 </div>
             </div>
               
@@ -50,32 +40,144 @@
     <!-- Box Section -->
     <div class="Centered">
             <h1>Public Web Application</h1>
-            <p><a href="">Link to the Final Application</a></p>
+            <p><a href="https://experience.arcgis.com/experience/3715296e10a24119a7548c34923ebaae">Link to the Final Application</a></p>
         </div>
         <div class="Box1">
                 <div class="BoxContent">
-                        <h1>Section 1</h1>
+  
                         <p>
-                            
+                            The dark theme from Option 2 Experience was used in the final experience, 
+                            as well as the functionality to zoom to different watersheds within the region. 
+                            From Option 1, the ability to zoom to and view buildings impacted by the 50m 
+                            flood plain, as well as allowing the user to toggle layers on and off was included.
+                             An additional functionality added to the final experience 
+                            was the use of text to provide background of the experience to the user.
                         </p>
+                        
+                        
                     </div>
-                <img class="Pic" src="" alt="Pic">
+                <img class="Pic" src="FinalWebApp.jpg" alt="Screenshot of the public facing web application">
                 </div>
         </div>
-        <div class="Centered">
-                <h1>Internal Operations Dashboard</h1>
-                <p><a href="">Link to the Final Dashboard</a></p>
-            </div>   
         <div class="Box1">
                 <div>
-                <img class="Pic" src="" alt="Pic">
+                <img class="Pic" src="WebAppFunctions.jpg" alt="Pic">
                 </div>
                 <div>
                     <div class="BoxContent">
-                        <h1>Section 1</h1>
+                        
+                        <p>The map widget is the centre of this experience, connecting to data 
+                                edited and symbolized on ArcGIS Online to provide consistency through 
+                                our solutions. The map widget was set with a custom view 
+                                of the Halton Region to improve usability. Other widgets used include:
+                            <ul>
+                                <li>Map Layers, allowing the user to adjust layer visibility, transparency, and zoom to a specific layer</li>
+                                <li>List, which was connected to the subwatershed layer. As well as providing a list of all subwatersheds, this widget allows the addition of a zoom trigger to view a specific watershed when selected. The list widget provides the capability of searching for a watershed within the list, and linking a photo to Conservation Halton’s website.</li>
+                                <li>Feature Info, connected to the vulnerable buildings layer, allowing the user to sort through the vulnerable buildings and read associated statistics. Adding a zoom trigger increases functionality, so the user can view impacted buildings at a customized scale.</li>
+                                <li>Side bar, used to increase the responsiveness of the app across different screen sizes</li>
+                                <li>Text, which increases usability of the app by providing context</li>
+                                
+                            </ul></p>
+                    </div>
+                </div>
+        </div>
+        <div class="CenteredContent">
+               
                         <p>
-                             
+                                This experience acts as a user-friendly public web application 
+                                allowing the user to search for an address within the map and 
+                                determine if that address is within the floodplain. Additionally, 
+                                users can search, zoom to, and explore the subwatersheds within the 
+                                region, toggle 
+                                through 2000 vulnerable buildings, and control map layer visibility.  
                         </p>
+                        <p>Limitations of the application include: The view of the app changes
+                             between the builder window and user preview due to screen size 
+                             setting. When building the app, the builder screen was set to a 
+                             specific laptop. The side bar present in option 1 increases
+                            responsiveness of the app to different screen sizes, so this
+                            widget was use within the experience to ensure its appearance 
+                            and functionality across a variety of screens. Using the column
+                            or text widgets did not provide this responsiveness, and it is unclear 
+                            how to accomplish 
+                            this without placing everything within a side bar widget.
+                        </p>
+                        
+                   
+               
+            
+        </div>
+        <div class="Centered">
+                <h1>Internal Operations Dashboard</h1>
+                <p><a href="https://fleming.maps.arcgis.com/apps/opsdashboard/index.html#/be7a83ab7f64412296de28aa8a482ab6">Link to the Final Dashboard</a></p>
+            </div>   
+        <div class="Box1">
+                <div>
+                <img class="Pic" src="FinalDashboard.jpg" alt="Screencapture of the final operations dashboard">
+                </div>
+                <div>
+                    <div class="BoxContent">
+                      
+                        <p>
+                                Various tools, widgets, and ideas were combined into the final 
+                                solution to deliver a tool that attempted to resolve the problem 
+                                statement. From Option 1, we took the idea of filtering visible 
+                                layers based on the map scale; in the final solution the total 
+                                building footprint layer is not visible until fully zoomed in. 
+                                As well, we classified the affected buildings into categories; 
+                                the final product displays a count for business, health care, 
+                                and residential building types. From Option 2, we incorporated 
+                                the ability to pan and zoom to a selected subwatershed. We also 
+                                chose to use the dark theme and include surrounding descriptive text
+                                 based on this option. From Option 3, we decided to implement a 
+                                 statistical layer that displays affected building surface area 
+                                 in each subwatershed. Like Option 3, Option 1 also inspired the 
+                                 ability to filter surrounding widgets based on the map view. 
+                                 Each Option inspired the final WebMap to have the ability to filter
+                                  visible layers, change the basemap, 
+                                return to the default extent, and search for addresses.   
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <div class="Box1">
+                <div class="BoxContent">
+                        <p>
+                          <ul>Dashboard functions:
+                              <li>A drop-down menu of the subwatersheds that pans and zooms to the user’s selection. This menu can also be filtered by typing in the drop-down bar.</li>
+                              <li>On the left panel, there are dynamic statistics that show counts of buildings based on the current map view. They respond as the map is panned and zoomed to different locations.This includes an indicator with a static reference number and a Bar graph to show affected building types</li>
+                              <li>The right panel has descriptive Rich Text to provide information and guidance to the user.</li>
+                              <li>The WebMap has an address search button, a default extent button, the ability to filter visible layers, and a basemap selector.</li>
+                              <li>The WebMap has configured pop-ups to provide more specific statistics for each subwatershed as well as each specific building that is considered vulnerable. Within the pop-up is a dynamic statistic that informs the user of the percentage of building area that would be affected by a flood.</li>
+                              <li>The WebMap itself displays subwatersheds and building footprints that would be affected by a flood</li>
+                            
+                            </ul>  
+                        </p>
+                    </div>
+                 
+                <img  class= "Pic" src="dashboardlayerselection.jpg" alt="">
+                 
+                </div>
+        </div>
+    
+                <div>
+                    <div class="CenteredContent">
+                      
+                                <p>
+                                        The use case for this application was to present statistical information
+                                         to make informed decisions in managing flood events. This Dashboard provides
+                                          dynamic statistics of the building areas that fall within the flood hazard allowance.
+                                           As well, it informs the user 
+                                        which specific buildings would be affected, their size, and their type. 
+    
+                                        <ul>Limitations:
+                                            <li>The overall flood statistics generation could be more robust and a vulnerability statistic could be a nice addition in the future</li>
+                                            <li>The Rich Text box does not have responsive text size; a scroll bar appears in the box when moved to a smaller screen instead of scaling the text size, as shown in the image below.</li>
+                                        </ul>
+                                </p>
+                                <img src=RichTextBox.jpg alt="Demonstration of the Rich Text box error">
+                            </div>
+                        
                     </div>
                 </div>
         </div>
@@ -85,13 +187,24 @@
             </div>
             <div class="Box1">
                     <div class="BoxContent">
-                            <h1></h1>
                             <p>
-                                
+                                The Javascript 4.14 version of the dashboard, outlined in the process section,  was determined 
+                                to be the best approach for incorporationg JavaScript API.
+                                Overall, JavaScript API can more analysis and geometry operations within the map compared to operations dashboard, 
+                                and when paired with Operations Dashboard which is limited in it's analysis functions, it has a lot of potential 
+                                to create sophisticated web applications. 
+
                             </p>
+                            <p>
+                                However, JavaScript API can be very complex and to code analysis operations into the web interface proved to be much harder than expected. 
+                                This solution does not have a search option where an address can be clicked and an 'all in one' popup would display
+                                the risk associated with that address, the address itself, and the watershed it was associated with. It was not possible within
+                                the time allocated to this project to get these functions operational and would require further exploration into JavaScript API. 
+                            </p>
+                            
                         </div>
-                    <img class="Pic" src="" alt="Pic">
-                    </div>
+                        <img class="Pic" src="JS4.jpg" alt="">
+                        </div>
             </div>
         
     </body>
